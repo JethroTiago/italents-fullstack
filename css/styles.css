@@ -1,4 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
+/* Teste de estilização em parágrafo */
+
+p {
+    color: red;
 }
