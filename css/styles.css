@@ -3,3 +3,8 @@
 p {
     color: yellow;
 }
+
+ul {
+    list-style-image: url(https://cdn.icon-icons.com/icons2/364/PNG/256/Arrow_Right_36953.png);
+    margin: 3rem;
+}
