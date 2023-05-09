@@ -18,3 +18,15 @@ ul {
     margin: 3rem;
     list-style-position: outside;
 }
+
+table, th, td, tr {
+    border: 2px solid black;
+    padding: .5rem;
+    border-collapse: collapse;
+    margin: 2rem;
+}
+
+caption {
+    margin-top: 5px;
+    caption-side: bottom;
+}
