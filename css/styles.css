@@ -9,3 +9,7 @@ p {
 span {
     color: var(--cor-unica);
 }
+
+div::after {
+    content: " - CSS - ";
+}
