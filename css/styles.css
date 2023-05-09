@@ -6,5 +6,15 @@ p {
 
 ul {
     list-style-image: url(https://cdn.icon-icons.com/icons2/364/PNG/256/Arrow_Right_36953.png);
+}
+
+.teste1 {
+    margin: 2rem;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.teste2 {
     margin: 3rem;
+    list-style-position: outside;
 }
