@@ -1,0 +1,11 @@
+:root {
+    --cor-unica: pink;
+}
+
+p {
+    color: var(--cor-unica);
+}
+
+span {
+    color: var(--cor-unica);
+}
