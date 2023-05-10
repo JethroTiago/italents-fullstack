@@ -75,11 +75,29 @@ body {
     align-items: baseline;
 }
 
+.footer-item {
+    list-style: none;
+}
+
 .footer-card a {
     text-decoration: none;
     text-align: center;
+    color: var(--font-color);
 }
 
 .footer-item {
     margin: 0.5rem;
+}
+
+.footer-item-nome {
+    font-weight: 700;
+}
+
+i.bi-house-fill,
+i.bi-emoji-smile-fill,
+i.bi-upc-scan,
+i.bi-cart,
+i.bi-stickies {
+    font-size: 60px;
+    color: var(--font-color);
 }
