@@ -64,3 +64,22 @@ body {
 
 /* FOOTER */
 
+.footer {
+    background-color: var(--background-clean);
+    margin-top: 4rem;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer-card a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-item {
+    margin: 0.5rem;
+}
