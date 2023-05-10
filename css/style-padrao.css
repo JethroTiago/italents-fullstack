@@ -6,3 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    min-height: 100vh;
+}
+
+:root {
+    --background-clean: #F9FBE7;
+    --company-color: #FEA1A1;
+}
+
+/* HEADER */
+
