@@ -11,17 +11,31 @@ body {
 }
 
 :root {
-    --background-clean: #F9FBE7;
-    --company-color: #FEA1A1;
+    --background-clean: #FFF8D6;
+    --font-color: #617A55;
+    --company-color: #F7E1AE;
 }
 
 /* HEADER */
 
 .cabecalho {
     width: 100%;
-    background-image: url(/img/header.jpg);
+    background-image: url(/img/header.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--background-clean);
+    height: 100px;
+}
+
+.menu .ul-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ul-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: var(--font-color);
 }
