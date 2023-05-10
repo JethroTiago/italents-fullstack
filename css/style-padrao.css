@@ -17,3 +17,11 @@ body {
 
 /* HEADER */
 
+.cabecalho {
+    width: 100%;
+    background-image: url(/img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--background-clean);
+}
