@@ -36,7 +36,6 @@ body {
 
 .ul-menu li {
     list-style: none;
-    padding: 0.5rem 1.5rem;
     color: var(--font-color);
 }
 
@@ -46,6 +45,13 @@ body {
     color: var(--font-color);
 }
 
+.img-localizacao {
+    display: flex;
+    padding-left: 5rem;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+
 .nome-localizacao {
     font-size: 30px;
     padding: 0 6rem 0 0;
@@ -53,4 +59,8 @@ body {
 
 .logo {
     width: 50%;
+    cursor: pointer;
 }
+
+/* FOOTER */
+
