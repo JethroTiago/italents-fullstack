@@ -21,7 +21,7 @@ body {
 .cabecalho {
     width: 100%;
     background-image: url(/img/header.png);
-    background-position: center;
+    background-position: 3%;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--background-clean);
@@ -36,6 +36,21 @@ body {
 
 .ul-menu li {
     list-style: none;
-    padding: 2rem;
+    padding: 0.5rem 1.5rem;
     color: var(--font-color);
+}
+
+.bi-file-person,
+.bi-geo-alt{
+    font-size: 50px;
+    color: var(--font-color);
+}
+
+.nome-localizacao {
+    font-size: 30px;
+    padding: 0 6rem 0 0;
+}
+
+.logo {
+    width: 50%;
 }
