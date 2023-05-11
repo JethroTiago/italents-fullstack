@@ -85,6 +85,7 @@ body {
     font-size: 2.5rem;
     color: var(--secundary-font-color);
     text-decoration: solid;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.473);
 }
 
 /* INPUT */
@@ -206,6 +207,56 @@ input[type=text]{
     margin: 1rem;
 }
 
+/* VER MAIS */
+
+.ver-mais {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    margin: 0 2rem 2rem 0;
+}
+
+.ver-mais a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--font-color);
+    margin: 0.8rem 2rem;
+}
+
+/* AVALIAçÃO */
+
+.avaliacao {
+    text-align: center;
+    border: 5px outset var(--background-color);
+    background-color: var(--company-color);
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    font: bold 1rem;
+}
+
+.titulo-avaliacao {
+    font-size: 40px;
+    color: var(--font-color);
+}
+
+.bi-hand-thumbs-up,
+.bi-hand-thumbs-down {
+    font-size: 40px;
+    color: var(--secundary-font-color);
+    text-shadow: 2px 2px black;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.frase-avaliacao {
+    font-size: 23px;
+    color: var(--font-color);
+    padding: 0.5rem;
+}
+
 /* FOOTER */
 
 .footer {
@@ -217,6 +268,7 @@ input[type=text]{
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    margin: 4rem 0 2rem 0;
 }
 
 .footer-item {
