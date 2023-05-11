@@ -90,7 +90,7 @@ body {
 /* INPUT */
 
 .input {
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -128,9 +128,45 @@ input[type=text]{
     color: var(--font-color);
 }
 
-/* CATEGOTIAS */
+/* CATEGORIAS */
 
+.categorias {
+    display: flex;
+    justify-content: space-around;
+}
 
+.categoria-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.categoria-a {
+    margin: 3rem 5rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.categoria-li {
+    margin: auto;
+    list-style: none;
+    border: 2px solid var(--secundary-font-color);
+    border-radius: 15px;
+    width: 80%;
+    padding: 1.6rem;
+    margin: 1rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    transition: transform 0.5s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.categoria-li:hover {
+    background-color: var(--font-color);
+    border: 5px solid var(--secundary-font-color);
+}
+
+:hover
 
 /* FOOTER */
 
