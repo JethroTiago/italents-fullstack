@@ -297,3 +297,19 @@ i.bi-stickies {
     font-size: 60px;
     color: var(--secundary-font-color);
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+    }
+
+    i.bi-geo-alt,
+    .nome-localizacao,
+    i.bi-card-image {
+        display: none;
+    }
+}
