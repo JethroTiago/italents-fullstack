@@ -11,8 +11,10 @@ body {
 }
 
 :root {
-    --background-clean: #FFF8D6;
-    --font-color: #617A55;
+    --background-clean: #FFE6C7;
+    --background-color: #FFA559;
+    --font-color: #454545;
+    --secundary-font-color: #ff6200;
     --company-color: #F7E1AE;
 }
 
@@ -62,6 +64,74 @@ body {
     cursor: pointer;
 }
 
+/* TITULO */
+
+.titulo {
+    padding: 2rem;
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.nome-empresa {
+    font-weight: 700;
+    font-size: 7rem;
+    margin-bottom: 0.5rem;
+    color: var(--font-color);
+    text-transform: uppercase;
+}
+
+.mensagem {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--secundary-font-color);
+    text-decoration: solid;
+}
+
+/* INPUT */
+
+.input {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+i.bi-search {
+    position: absolute;
+    color: var(--font-color);
+    padding: 0.2rem 0 0 3rem;
+    font-size: 40px;
+}
+
+.input-text {
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
+    padding: 1rem 0 1rem 0;
+    padding-left: 5rem;
+    border: 2mm ridge var(--secundary-font-color);
+    border-radius: 30px;
+    text-align: center;
+}
+
+input:focus {
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: var(--font-color);
+}
+
+input[type=text]{
+    color: var(--font-color);
+}
+
+/* CATEGOTIAS */
+
+
+
 /* FOOTER */
 
 .footer {
@@ -99,5 +169,5 @@ i.bi-upc-scan,
 i.bi-cart,
 i.bi-stickies {
     font-size: 60px;
-    color: var(--font-color);
+    color: var(--secundary-font-color);
 }
