@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-padrao.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>CADASTRAR PRODUTO</title>
+    <title>HOME</title>
 </head>
-
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><i class="bi bi-list"></i></li>
-                <li><i class="bi bi-geo-alt"></i></li>
-                <li>
-                    <p>Curitiba, PR</p>
-                </li>
-                <li><i class="bi bi-card-image"></i></li>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="./login.html"><li><i class="bi bi-file-person"></i></li></a>
+                <li class="img-localizacao"><i class="bi bi-geo-alt"></i><p class="nome-localizacao">Curitiba, PR</p></li>
+                <a href="./home.html"><li><img src="./img/steve-logo.png" class="logo" alt="Steve Pizza com óculos"></li></a>
             </ul>
         </nav>
     </header>
@@ -48,28 +44,38 @@
         </form>
     </section>
 
-    <footer>
-        <ul>
-            <li>
-                <a href=""><i class="bi bi-house-fill"></i>
-                    <p>HOME</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><i class="bi bi-emoji-smile-fill"></i>
-                    <p>PERFIL</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><i class="bi bi-receipt"></i>
-                    <p>CUPONS</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><i class="bi bi-stickies-fill"></i>
-                    <p>PEDIDOS</p>
-                </a>
-            </li>
+    <footer class="rodape">
+        <ul class="footer-card">
+            <a href="./home.html">
+                <li class="footer-item">
+                    <i class="bi bi-house-fill"></i>
+                    <p class="footer-item-nome">HOME</p>
+                </li>
+            </a>
+            <a href="./cadastrar_usuario.html">
+                <li class="footer-item">
+                    <i class="bi bi-emoji-smile-fill"></i>
+                    <p class="footer-item-nome">CADASTRO USUÁRIO</p>
+                </li>
+            </a>
+            <a href="./cadastrar_produto.html">
+                <li class="footer-item">
+                    <i class="bi bi-upc-scan"></i>
+                    <p class="footer-item-nome">CADASTRO PRODUTO</p>
+                </li>
+            </a>
+            <a href="./carrinho.html">
+                <li class="footer-item">
+                    <i class="bi bi-cart"></i>
+                    <p class="footer-item-nome">CARRINHO</p>
+                </li>
+            </a>
+            <a href="./produto.html">
+                <li class="footer-item">
+                    <i class="bi bi-stickies"></i>
+                    <p class="footer-item-nome">PRODUTO</p>
+                </li>
+            </a>
         </ul>
     </footer>
 
